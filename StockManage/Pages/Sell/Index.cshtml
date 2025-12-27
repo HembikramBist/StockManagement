@@ -1,0 +1,84 @@
+﻿@page
+@model StockManagement.Presentation.Pages.Sell.IndexModel
+@{
+    ViewData["Title"] = "Sell Products";
+}
+
+<div class="row">
+
+   
+    <div class="col-md-4">
+        <h4> Cart</h4>
+
+        @if (Model.Cart.Any())
+        {
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Cart)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Total.ToString("0.00")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <h5 class="text-end">
+                Total: <strong>@Model.GrandTotal.ToString("0.00")</strong>
+            </h5>
+
+            <form method="post" asp-page-handler="Save">
+                <button class="btn btn-success w-100">Save Transaction</button>
+            </form>
+        }
+        else
+        {
+            <p class="text-muted">Cart is empty</p>
+        }
+    </div>
+
+   
+    <div class="col-md-8">
+        <h4> Products</h4>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Available</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model.Products)
+                {
+                    <tr>
+                        <td>@p.ProductName</td>
+                        <td>@p.Quantity</td>
+                        <td>@p.Price.ToString("0.00")</td>
+                        <td>
+                            <form method="post" asp-page-handler="Add">
+                                <input type="hidden" name="productId" value="@p.id" />
+                                <button class="btn btn-sm btn-primary"
+                                        @(p.Quantity == 0 ? "disabled" : "")>
+                                    Add to Cart
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

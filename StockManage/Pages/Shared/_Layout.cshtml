@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Stock Management</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" asp-page="/Dashboard/Index">Stock Management</a>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+
+                     
+                    @if (User.IsInRole("Admin") || User.IsInRole("StockManager"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Dashboard/Index">Dashboard</a>
+                        </li>
+                    }
+
+                  
+                    @if (User.Identity?.IsAuthenticated == true)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Products/Index">Products</a>
+                        </li>
+                    }
+
+                   
+                    @if (User.Identity?.IsAuthenticated == true)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Sell/Index">Sell</a>
+                        </li>
+                    }
+
+                   
+                    @if (User.IsInRole("Admin") || User.IsInRole("StockManager"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-page="/Transactions/Index">Transactions</a>
+                        </li>
+                    }
+
+             
+                </ul>
+
+               
+                <ul class="navbar-nav ms-auto">
+
+                    @if (User.Identity?.IsAuthenticated == true)
+                    {
+                        <li class="nav-item">
+                            <span class="navbar-text text-white me-3">
+                                👤 @User.Identity.Name (@User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value)
+                            </span>
+                        </li>
+
+                        <li class="nav-item">
+                            <form method="post" asp-page="/Account/Logout">
+                                <button type="submit" class="btn btn-outline-light btn-sm">
+                                    Logout
+                                </button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light btn-sm" asp-page="/Account/Login">
+                                Login
+                            </a>
+                        </li>
+                    }
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

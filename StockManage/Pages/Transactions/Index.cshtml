@@ -1,0 +1,28 @@
+﻿@page
+@model StockManagement.Presentation.Pages.Transactions.IndexModel
+
+<h1>Sales Transactions</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User</th>
+            <th>Total Products</th>
+            <th>Grand Total</th>
+            <th>Sold At</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in Model.Transactions)
+        {
+            <tr>
+                <td>@t.Id</td>
+                <td>@t.UserName</td>
+                <td>@t.TotalQuantity</td>
+                <td>@t.GrandTotal.ToString("0.00")</td>
+                <td>@t.SoldAt.ToLocalTime()</td>
+            </tr>
+        }
+    </tbody>
+</table>

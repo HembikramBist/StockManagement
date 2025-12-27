@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dIlhiZXDa2c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\StockManagement.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hembikram\\.nuget\\packages\\microsoft.powerbi.api\\4.22.0\\microsoft.powerbi.api.4.22.0.nupkg.sha512",
+    "C:\\Users\\Hembikram\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.24\\microsoft.rest.clientruntime.2.3.24.nupkg.sha512",
+    "C:\\Users\\Hembikram\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Hembikram\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
