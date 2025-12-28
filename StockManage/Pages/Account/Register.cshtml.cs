@@ -32,7 +32,7 @@ namespace StockManagement.Presentation.Pages.Account
                 return Page();
             }
 
-            // Check if username already exists
+            //  already exists
             if (await _context.Users.AnyAsync(u => u.UserName == Input.Username))
             {
                 ErrorMessage = "Username already exists!";
@@ -42,7 +42,7 @@ namespace StockManagement.Presentation.Pages.Account
             var user = new User
             {
                 UserName = Input.Username,
-                Password = Input.Password, // For production: hash the password!
+                Password = Input.Password, 
                 Role = Input.Role
             };
 

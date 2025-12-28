@@ -1,0 +1,581 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\application\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\application\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28BB8DB7-98D1-4271-9398-B3E791F4D102}|StockManagement.Infrastructure\\StockManagement.Infrastructure.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.infrastructure\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28BB8DB7-98D1-4271-9398-B3E791F4D102}|StockManagement.Infrastructure\\StockManagement.Infrastructure.csproj|solutionrelative:stockmanagement.infrastructure\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\application\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\application\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\application\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\application\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\application\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\application\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\transactions\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\transactions\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\transactions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\dashboard\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\dashboard\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28BB8DB7-98D1-4271-9398-B3E791F4D102}|StockManagement.Infrastructure\\StockManagement.Infrastructure.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.infrastructure\\persistence\\data\\stockdbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28BB8DB7-98D1-4271-9398-B3E791F4D102}|StockManagement.Infrastructure\\StockManagement.Infrastructure.csproj|solutionrelative:stockmanagement.infrastructure\\persistence\\data\\stockdbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\domain\\entities\\stocktransactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\domain\\entities\\stocktransactionitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\domain\\entities\\stocktransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\domain\\entities\\stocktransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\domain\\entities\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\domain\\entities\\inventorytransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanagement.core\\domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B78F49B-BFD1-4AD8-A7BE-483B3144366B}|StockManagement.Core\\StockManagement.Core.csproj|solutionrelative:stockmanagement.core\\domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\sell\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\sell\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|c:\\users\\hembikram\\source\\repos\\stockmanage\\stockmanage\\pages\\sell\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{18B6F2BC-BDED-43F1-8276-1B137C989F9B}|StockManage\\StockManagement.Presentation.csproj|solutionrelative:stockmanage\\pages\\sell\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Products\\Index.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Products\\Index.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAwwIEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:49:41.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Application\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\UpdateProductDto.cs",
+              "RelativeToolTip": "StockManagement.Core\\Application\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:51:14.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Application\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\ProductResponseDto.cs",
+              "RelativeToolTip": "StockManagement.Core\\Application\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:51:06.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\appsettings.json",
+              "RelativeDocumentMoniker": "StockManage\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\appsettings.json",
+              "RelativeToolTip": "StockManage\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-27T19:50:34.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Products\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Products\\Index.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:49:49.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:50:42.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Infrastructure\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "StockManagement.Infrastructure\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Infrastructure\\Service\\ProductService.cs",
+              "RelativeToolTip": "StockManagement.Infrastructure\\Service\\ProductService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwFEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:55.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAH8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:38:52.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Application\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\CreateProductDto.cs",
+              "RelativeToolTip": "StockManagement.Core\\Application\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:51:03.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Application\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Application\\RegisterModel.cs",
+              "RelativeToolTip": "StockManagement.Core\\Application\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:51:11.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "StockManage\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Properties\\launchSettings.json",
+              "RelativeToolTip": "StockManage\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-27T19:50:50.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Program.cs",
+              "RelativeDocumentMoniker": "StockManage\\Program.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Program.cs",
+              "RelativeToolTip": "StockManage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:50:20.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Transactions\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Transactions\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Transactions\\Index.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Transactions\\Index.cshtml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:50:14.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Transactions\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Transactions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Transactions\\Index.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Transactions\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:50:11.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Dashboard\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Dashboard\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Dashboard\\Index.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Dashboard\\Index.cshtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:49:36.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswCwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:49:01.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:48:51.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:48:44.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Extensions\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "StockManage\\Extensions\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Extensions\\SessionExtensions.cs",
+              "RelativeToolTip": "StockManage\\Extensions\\SessionExtensions.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:48:39.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "StockManage\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Controllers\\StockController.cs",
+              "RelativeToolTip": "StockManage\\Controllers\\StockController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:48:13.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "StockManage\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "StockManage\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:48:08.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "StockManage\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "StockManage\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:48:03.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:36:37.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "StockManagement.Core\\Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:45.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StockTransactionItem.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\StockTransactionItem.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Domain\\Entities\\StockTransactionItem.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\StockTransactionItem.cs",
+              "RelativeToolTip": "StockManagement.Core\\Domain\\Entities\\StockTransactionItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:43.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\StockTransaction.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Domain\\Entities\\StockTransaction.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\StockTransaction.cs",
+              "RelativeToolTip": "StockManagement.Core\\Domain\\Entities\\StockTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:42.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "StockManagement.Core\\Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:39.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InventoryTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\InventoryTransaction.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Domain\\Entities\\InventoryTransaction.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\InventoryTransaction.cs",
+              "RelativeToolTip": "StockManagement.Core\\Domain\\Entities\\InventoryTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:26.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "StockManagement.Core\\Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Core\\Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "StockManagement.Core\\Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:47:20.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:39:04.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StockDbConnect.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Infrastructure\\Persistence\\Data\\StockDbConnect.cs",
+              "RelativeDocumentMoniker": "StockManagement.Infrastructure\\Persistence\\Data\\StockDbConnect.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManagement.Infrastructure\\Persistence\\Data\\StockDbConnect.cs",
+              "RelativeToolTip": "StockManagement.Infrastructure\\Persistence\\Data\\StockDbConnect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:09:47.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Sell\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Sell\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Sell\\Index.cshtml.cs",
+              "RelativeToolTip": "StockManage\\Pages\\Sell\\Index.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T19:27:33.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Sell\\Index.cshtml",
+              "RelativeDocumentMoniker": "StockManage\\Pages\\Sell\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Hembikram\\source\\repos\\StockManage\\StockManage\\Pages\\Sell\\Index.cshtml",
+              "RelativeToolTip": "StockManage\\Pages\\Sell\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-27T19:22:15.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

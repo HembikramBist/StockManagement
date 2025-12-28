@@ -7,7 +7,7 @@ using StockManagement.Infrastructure.Persistence.Data;
 
 namespace StockManagement.Presentation.Pages.Products
 {
-    [Authorize] // All logged-in users
+    [Authorize] 
     public class IndexModel : PageModel
     {
         private readonly StockDbConnect _context;

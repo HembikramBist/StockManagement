@@ -79,7 +79,7 @@ namespace StockManagement.Infrastructure.Services
         {
             return new ProductResponseDto
             {
-                Id = product.id,
+                id = product.id,
                 Name = product.ProductName,
                 Quantity = product.Quantity,
                 Price = product.Price,

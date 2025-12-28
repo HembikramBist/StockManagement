@@ -49,7 +49,7 @@ app.UseRouting();
 
 app.UseSession();
 
-app.UseAuthentication();   // if you use auth (cookies / roles)
+app.UseAuthentication();   
 app.UseAuthorization();    
 
 app.MapRazorPages();

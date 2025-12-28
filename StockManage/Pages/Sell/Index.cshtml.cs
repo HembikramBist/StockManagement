@@ -20,21 +20,19 @@ namespace StockManagement.Presentation.Pages.Sell
         }
 
         public List<Product> Products { get; set; } = new();
-
         public List<CartItem> Cart { get; set; } = new();
 
         public decimal GrandTotal => Cart.Sum(c => c.Total);
 
-        // ================= GET =================
+        //   GET  
         public async Task OnGetAsync()
         {
             Products = await _context.Products.ToListAsync();
-
             Cart = HttpContext.Session.GetObject<List<CartItem>>(CART_KEY)
                    ?? new List<CartItem>();
         }
 
-        // ================= ADD TO CART =================
+        //   ADD TO CART  
         public async Task<IActionResult> OnPostAddAsync(int productId)
         {
             Cart = HttpContext.Session.GetObject<List<CartItem>>(CART_KEY)
@@ -65,13 +63,35 @@ namespace StockManagement.Presentation.Pages.Sell
 
             await _context.SaveChangesAsync();
 
-            //  SAVE CART TO SESSION
+            HttpContext.Session.SetObject(CART_KEY, Cart);
+            return RedirectToPage();
+        }
+
+        //   REMOVE FROM CART  
+        public async Task<IActionResult> OnPostRemoveAsync(int productId)
+        {
+            Cart = HttpContext.Session.GetObject<List<CartItem>>(CART_KEY)
+                   ?? new List<CartItem>();
+
+            var item = Cart.FirstOrDefault(c => c.ProductId == productId);
+            if (item == null)
+                return RedirectToPage();
+
+            var product = await _context.Products.FindAsync(productId);
+            if (product != null)
+            {
+                product.Quantity += item.Quantity;
+            }
+
+            Cart.Remove(item);
+
+            await _context.SaveChangesAsync();
             HttpContext.Session.SetObject(CART_KEY, Cart);
 
             return RedirectToPage();
         }
 
-        // ================= SAVE TRANSACTION =================
+        //   SAVE TRANSACTION  
         public async Task<IActionResult> OnPostSaveAsync()
         {
             Cart = HttpContext.Session.GetObject<List<CartItem>>(CART_KEY)
@@ -100,16 +120,13 @@ namespace StockManagement.Presentation.Pages.Sell
             }
 
             _context.StockTransactions.Add(transaction);
-
             await _context.SaveChangesAsync();
 
-            
             HttpContext.Session.Remove(CART_KEY);
-
             return RedirectToPage();
         }
 
-        // ================= CART ITEM =================
+       
         public class CartItem
         {
             public int ProductId { get; set; }

@@ -17,7 +17,7 @@ namespace StockManagement.Presentation.Controllers
             _context = context;
         }
 
-        // POST: api/stock/in?productId=1&quantity=50
+        
         [HttpPost("in")]
         public async Task<IActionResult> StockIn(int productId, int quantity)
         {
@@ -44,7 +44,7 @@ namespace StockManagement.Presentation.Controllers
             return Ok("Stock added successfully");
         }
 
-        // POST: api/stock/out?productId=1&quantity=20
+       
         [HttpPost("out")]
         public async Task<IActionResult> StockOut(int productId, int quantity)
         {

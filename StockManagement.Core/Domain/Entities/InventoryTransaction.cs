@@ -4,7 +4,7 @@
     {
         public int ProductId { get; set; }
         public int Quantity { get; set; }
-        public string Type { get; set; } = null!; // IN / OUT
+        public string Type { get; set; } = null!; 
         public DateTime CreatedAt { get; set; }
     }
 }
