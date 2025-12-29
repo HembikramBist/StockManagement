@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using StockManagement.Core.Domain.Entities;
 using StockManagement.Infrastructure.Persistence.Data;
 
 namespace StockManagement.Presentation.Pages.Transactions
@@ -15,9 +17,28 @@ namespace StockManagement.Presentation.Pages.Transactions
 
         public List<TransactionVM> Transactions { get; set; } = new();
 
+        [BindProperty(SupportsGet = true)]
+        public DateTime? FromDate { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public DateTime? ToDate { get; set; }
+
         public async Task OnGetAsync()
         {
-            Transactions = await _context.StockTransactions
+            var today = DateTime.Today;
+
+            // DEFAULT: Show only TODAY's transactions when page first loads
+            FromDate ??= today;
+            ToDate ??= today;
+
+            // If user picks custom dates, use those instead
+            var startDate = FromDate.Value.Date; // 00:00:00
+            var endDate = ToDate.Value.Date.AddDays(1).AddTicks(-1); // 23:59:59.999
+
+            IQueryable<StockTransaction> query = _context.StockTransactions
+                .Where(t => t.SoldAt >= startDate && t.SoldAt <= endDate);
+
+            Transactions = await query
                 .OrderByDescending(t => t.SoldAt)
                 .Select(t => new TransactionVM
                 {

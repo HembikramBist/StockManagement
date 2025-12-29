@@ -1,28 +1,63 @@
 ﻿@page
 @model StockManagement.Presentation.Pages.Transactions.IndexModel
+@{
+    ViewData["Title"] = "Sales Transactions History";
+}
 
-<h1>Sales Transactions</h1>
+<h1>
+    @if (Model.FromDate == DateTime.Today && Model.ToDate == DateTime.Today)
+    {
+        <text>Today's Sales Transactions (@DateTime.Today.ToString("dddd, MMMM dd, yyyy"))</text>
+    }
+    else
+    {
+        <text>Sales Transactions History</text>
+    }
+</h1>
 
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>User</th>
-            <th>Total Products</th>
-            <th>Grand Total</th>
-            <th>Sold At</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var t in Model.Transactions)
-        {
+<!-- Date Filter -->
+<form method="get" class="row mb-4 g-3 align-items-end">
+    <div class="col-md-3">
+        <label class="form-label">From Date</label>
+        <input type="date" name="fromDate" class="form-control" value="@Model.FromDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">To Date</label>
+        <input type="date" name="toDate" class="form-control" value="@Model.ToDate?.ToString("yyyy-MM-dd")" />
+    </div>
+    <div class="col-md-3">
+        <button type="submit" class="btn btn-primary">Filter</button>
+        <a asp-page="./Index" class="btn btn-secondary ms-2">Clear</a>
+    </div>
+</form>
+
+@if (!Model.Transactions.Any())
+{
+    <div class="alert alert-info">No transactions found for the selected date range.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
             <tr>
-                <td>@t.Id</td>
-                <td>@t.UserName</td>
-                <td>@t.TotalQuantity</td>
-                <td>@t.GrandTotal.ToString("0.00")</td>
-                <td>@t.SoldAt.ToLocalTime()</td>
+                <th>ID</th>
+                <th>User</th>
+                <th>Total Products</th>
+                <th>Grand Total</th>
+                <th>Sold At</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var t in Model.Transactions)
+            {
+                <tr>
+                    <td>@t.Id</td>
+                    <td>@t.UserName</td>
+                    <td>@t.TotalQuantity</td>
+                    <td>@t.GrandTotal.ToString("0.00")</td>
+                    <td>@t.SoldAt.ToLocalTime().ToString("dd MMM yyyy - hh:mm tt")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

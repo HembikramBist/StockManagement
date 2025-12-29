@@ -9,11 +9,13 @@ namespace StockManagement.Presentation.Pages.Dashboard
     public class IndexModel : PageModel
     {
         private readonly StockDbConnect _context;
+
         public int TotalProducts { get; set; }
         public int TotalUsers { get; set; }
         public int TotalQuantity { get; set; }
-
         public decimal TodaySales { get; set; }
+        public int TransactionsToday { get; set; }  //  NEW property
+
         public IndexModel(StockDbConnect context)
         {
             _context = context;
@@ -27,9 +29,14 @@ namespace StockManagement.Presentation.Pages.Dashboard
 
             var today = DateTime.Today;
 
+            // Today's sales amount
             TodaySales = await _context.StockTransactions
                 .Where(t => t.SoldAt.Date == today)
                 .SumAsync(t => (decimal?)t.GrandTotal) ?? 0;
+
+            // NEW: Count of transactions today
+            TransactionsToday = await _context.StockTransactions
+                .CountAsync(t => t.SoldAt.Date == today);
         }
     }
 }

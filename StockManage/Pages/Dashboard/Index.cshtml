@@ -3,41 +3,55 @@
 @{
     ViewData["Title"] = "Dashboard";
 }
-
 <h1>Dashboard</h1>
-<div class="row">
+
+<div class="row g-4">
+    <!-- Total Products -->
     <div class="col-md-4">
-        <div class="card text-white bg-primary mb-3">
-            <div class="card-body">
+        <div class="card text-white bg-primary shadow-sm">
+            <div class="card-body text-center">
                 <h5 class="card-title">Total Products</h5>
-                <p class="card-text">@Model.TotalProducts</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-success mb-3">
-            <div class="card-body">
-                <h5 class="card-title">Total Users</h5>
-                <p class="card-text">@Model.TotalUsers</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-warning mb-3">
-            <div class="card-body">
-                <h5 class="card-title">Total Stock Quantity</h5>
-                <p class="card-text">@Model.TotalQuantity</p>
+                <h3 class="display-5 fw-bold">@Model.TotalProducts</h3>
             </div>
         </div>
     </div>
 
-    <div class="col-md-3">
-        <div class="card text-white bg-dark mb-3">
-            <div class="card-body">
+    <!-- Total Users -->
+    <div class="col-md-4">
+        <div class="card text-white bg-success shadow-sm">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total Users</h5>
+                <h3 class="display-5 fw-bold">@Model.TotalUsers</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Stock Quantity -->
+    <div class="col-md-4">
+        <div class="card text-white bg-warning shadow-sm">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total Stock Quantity</h5>
+                <h3 class="display-5 fw-bold">@Model.TotalQuantity</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Transactions Today (NEW) -->
+    <div class="col-md-4">
+        <div class="card text-white bg-info shadow-sm">
+            <div class="card-body text-center">
+                <h5 class="card-title">Transactions Today</h5>
+                <h3 class="display-5 fw-bold">@Model.TransactionsToday</h3>
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="col-md-4">
+        <div class="card text-white bg-dark shadow-sm">
+            <div class="card-body text-center">
                 <h5 class="card-title">Today Sales</h5>
-                <p class="card-text">
-                    ₹ @Model.TodaySales.ToString("0.00")
-                </p>
+                <h3 class="display-5 fw-bold">₹ @Model.TodaySales.ToString("0.00")</h3>
             </div>
         </div>
     </div>

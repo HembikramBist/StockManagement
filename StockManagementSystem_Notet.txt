@@ -1,0 +1,239 @@
+Stock Management System 
+
+Project Overview
+
+I have developed a Stock Management System using ASP.NET Core by following Clean Architecture principles.
+The main goal of this project is to manage products, stock, sales, and users in a structured, secure, and scalable way.
+
+ 1 StockManagement.Core
+ This project contains business rules and core logic (NO database, NO UI)
+ Application Folder
+Contains DTOs and Interfaces used to transfer data and define contracts.
+
+* Interfaces/
+
+  * Used to define service contracts (what a service should do).
+
+* CreateProductDto.cs
+
+  * Used when creating a new product.
+
+* UpdateProductDto.cs
+
+  * Used when updating an existing product.
+
+* ProductResponseDto.cs
+
+  * Used to return product data to UI.
+
+* RegisterModel.cs
+
+  * Used for user registration data.
+
+ Domain Folder
+Contains core business entities (database models).
+ Entities Folder
+
+* BaseEntity.cs
+
+  * Base class with common fields like Id, CreatedAt.
+
+* Product.cs
+
+  * Represents product table (Name, Quantity, Price).
+
+* User.cs
+
+  * Represents users (Username, Password, Role).
+
+* StockTransaction.cs
+
+  * Represents a sales transaction.
+
+* StockTransactionItem.cs
+
+  * Represents items inside a transaction.
+
+* InventoryTransaction.cs
+
+  * Tracks stock changes.
+
+ Enums Folder
+
+* Stores enum values like roles or status (if used).
+
+2  StockManagement.Infrastructure
+This project handles database and external services
+ Persistence Folder
+Contains database-related code.
+ Data Folder
+
+* StockDbConnect.cs
+
+  * Entity Framework DbContext
+
+  * Connects application to SQL Server
+
+  * Contains DbSet<Product>, DbSet<User>, etc.
+
+ Migrations Folder
+
+* Stores Entity Framework migration files
+
+* Used to create/update database tables.
+
+ Service Folder
+
+* ProductService.cs
+
+  * Business logic related to products (optional abstraction layer).
+
+3 StockManagement.Presentation
+ This project is the UI (Razor Pages + Authentication)
+
+ Controllers Folder
+
+ Controllers handle API-style logic and backend operations
+
+🔹 AuthController.cs
+
+Handles authentication logic
+
+Manages: Login validation Logout action Creates and removes authentication cookies Controls user access securely
+
+🔹 ProductsController.cs
+
+Handles product-related operations
+
+Used to: Fetch product data Perform product CRUD operations (if accessed via API) Keeps product logic separate from UI pages
+
+🔹 StockController.cs
+
+Manages stock and inventory logic
+
+Handles: Stock updates Sales and inventory transactions Ensures clean separation of stock business rules
+ Extensions Folder
+
+* SessionExtensions.cs
+
+  * Helps store complex objects (Cart) in session using JSON.
+
+ Pages (Razor Pages UI) Folder
+ Account Folder
+Handles authentication.
+
+* Login.cshtml
+
+  * Login UI.
+
+* Login.cshtml.cs
+
+  * Login logic (validate user, create cookie, set role).
+
+* Logout.cshtml
+
+  * Logout confirmation page.
+
+* Logout.cshtml.cs
+
+  * Clears authentication cookie and session.
+
+* Register.cshtml
+
+  * User registration UI.
+
+* Register.cshtml.cs
+
+  * Handles user registration logic.
+
+ Dashboard Folder
+
+* Index.cshtml
+
+  * Dashboard UI (cards: total products, users, today sales).
+
+* Index.cshtml.cs
+
+  * Dashboard logic (counts, daily sales).
+
+ Products Folder
+
+* Index.cshtml
+
+  * Product list UI with Add/Edit/Delete (Admin only).
+
+* Index.cshtml.cs
+
+  * Product CRUD logic.
+
+  * Uses role-based authorization.
+
+ Sell Folder
+
+* Index.cshtml
+
+  * Sell page UI.
+
+  * Shows products and cart.
+
+* Index.cshtml.cs
+
+  * Add to cart
+
+  * Remove from cart
+
+  * Save transaction
+
+  * Manage stock quantity
+
+ Transactions Folder
+
+* Index.cshtml
+
+  * Displays transaction history.
+
+* Index.cshtml.cs
+
+  * Loads transaction data.
+
+ Shared Folder
+
+* _Layout.cshtml
+
+  * Main layout (Navbar, Bootstrap, Logout button).
+
+  * Used by all pages.
+
+📄 _ViewImports.cshtml
+
+* Imports namespaces and tag helpers globally.
+
+📄 _ViewStart.cshtml
+
+* Sets default layout for all pages.
+
+📄 Program.cs
+
+* Application startup file.
+
+* Configures:
+
+  * Razor Pages
+
+  * Database connection
+
+  * Authentication (Cookies)
+
+  * Authorization (Roles)
+
+  * Session
+
+  * Middleware pipeline
+
+📄 appsettings.json
+
+* Stores configuration:
+
+  * Database connection string
+
+  * App settings)
